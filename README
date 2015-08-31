@@ -1,0 +1,11 @@
+This repository contains drivers for the MIDAS data acquisition system
+
+Website: https://midas.triumf.ca
+
+low-level drivers:
+	  * operation of CAEN V1742 waveform digitisers
+
+high/level drivers:
+	  * operation and interrupt driven triggering of Struck SIS 3100 VME 
+	    interface, interrupt handling is done in a separate thread
+	  * easy operation of CAEN V1742 waveform digitisers
